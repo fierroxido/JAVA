@@ -30,7 +30,7 @@ public class tarea1 {
     double ec = (masa * pow(velocidad, 2))/2.0;
     //Se sigue la formula de la energía cinetica y se busca 
     
-        System.out.println("La energia cinetica de la operacion es : " +ec+""+(double)Math.round(ec));
+        System.out.println("La energia cinetica de la operacion es : " +ec+""+(double)Math.round(ec));//Se utiliza este metodo para imprimir la operación y multiplicar el flotante a dos decimales
     
     }
 }
