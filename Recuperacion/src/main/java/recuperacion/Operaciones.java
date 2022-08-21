@@ -32,7 +32,7 @@ public class Operaciones {
         //Hipotenusa
         //Raiz cuadrada de la   suma de los catetos
         
-        double sumaCatetos=Math.pow(a,2)+Math.pow(b, 2);
+        double sumaCatetos=Math.pow(a,2)+Math.pow(b, 2);//Se utiliza la funcion math.pow para elevar la potencia a un exponente
         double area=Math.sqrt(sumaCatetos);//La función sqrt sirve para sacar la raíz cuadrada, en este caso de "sumaCatetos"
         System.out.println(area);
         /*

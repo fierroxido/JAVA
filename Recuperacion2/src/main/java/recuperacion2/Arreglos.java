@@ -19,17 +19,23 @@ public class Arreglos {
         Scanner entrada=new Scanner(System.in);//Se crea el Scanner normalmente
         int episodio=entrada.nextInt();
         
-        int[] duracion =new int[5];//Sintaxis del arreglo, será de valor entero, el nombre de la variable es duración y el tamaño del arreglo es de 5
         
+        int[] duracion =new int[]{30,28,24,32,31};//Forma de crear un arreglo 
+        int n =duracion.length;
+             
+        /*int[] duracion =new int[5];//Sintaxis del arreglo, será de valor entero, el nombre de la variable es duración y el tamaño del arreglo es de 5
         duracion[0]=30;//Recordar que se utilizan las posiciones del arreglo y siempre se cuenta desde la posicion 0 
         duracion[1]=28;//Posicion 1 dato dos
         duracion[2]=24;//Posicion 2 dato tres
         duracion[3]=32;//Posicion 3 dato cuatro
         duracion[4]=31;//Posicion 4 dato cinco
-        
-        int duracionI=duracion[episodio];//Se crea la variable "duracionI" que es para imprimir los datos contenidos del array duracion y se toma el Scanner llamado episodio para aclarecer que es el dato que ingreso el usuario.
-        System.out.println("El tiempo de duración del episodio ingresado es de: "+duracionI+" minutos");
-        
+        */
+           if (episodio>=0 && episodio <5){
+            int duracionI=duracion[episodio];//Se crea la variable "duracionI" que es para imprimir los datos contenidos del array duracion y se toma el Scanner llamado episodio para aclarecer que es el dato que ingreso el usuario.
+            System.out.println("El tiempo de duración del episodio ingresado es de: "+duracionI+" minutos");
+           }else{
+               System.out.println("Error!!!!!!!!! \nLa serie tiene solo "+n+" episodios");
+           }
         
         
         
