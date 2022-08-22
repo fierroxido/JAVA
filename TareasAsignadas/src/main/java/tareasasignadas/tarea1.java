@@ -31,6 +31,22 @@ public class tarea1 {
     //Se sigue la formula de la energía cinetica y se busca 
     
         System.out.println("La energia cinetica de la operacion es : " +ec+""+(double)Math.round(ec));//Se utiliza este metodo para imprimir la operación y multiplicar el flotante a dos decimales
+    /*
+        Las variables mencionadas son de tipo:
+    a. char
+    b. long
+    c. float o double
+    d. boolean
+    e. int
+    f. String
+    g. double
+        */
     
+    double subtotal = (60 * 0.30) + (100 * 0.25) + (20 * 80);
+    double iva = subtotal * 0.16;
+    double total = subtotal + iva;
+        System.out.println(String.format("El total a pagar es: $%.2f", total));
+        
+        
     }
 }
