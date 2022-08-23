@@ -104,13 +104,13 @@ System.out.println("------------------------------------------------------------
 
         String[] titleArray=new String[]{"Ted","Barbie","Max Steel","Batman","Avatar","Son como niños"};
     
-        int maxLength=0;
+        int maxxLength=0;
         String longestTitle="";
         
         for(String title:titleArray){
             int titleLength=title.length();
-            if(titleLength>maxlength){
-                maxlength=titleLength;
+            if(titleLength>maxxLength){
+                maxxLength=titleLength;
                 longestTitle=title;      
     
             }
